@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="aemm-plugin-navto"
+    version="1.0.1">
+    <name>AEM Mobile Navigation Protocols</name>
+    <description>AEM Mobile Navigation Protocols Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,cqm,navigation,protocols,aem,aemm,aemmobile,navto</keywords>
+    <repo>https://github.com/adobe-marketing-cloud-mobile/aemm-plugin-navto.git</repo>
+
+	<engines>
+        <engine name="cordova-ios" version=">=4.0.0-dev" />
+        <engine name="apple-ios" version=">=9.0" />
+	</engines>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CQMNavProtocols">
+                <param name="ios-package" value="CQMNavProtocols" />
+                <param name="onload" value="true" />
+            </feature>
+            <allow-navigation href="navto:*" />
+            <allow-navigation href="goto:*" />
+            <allow-navigation href="http://*/*" />
+            <allow-navigation href="https://*/*" />
+            <allow-navigation href="about:*" />
+        </config-file>
+
+    </platform>
+
+</plugin>
