@@ -4,7 +4,7 @@
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="aemm-plugin-navto"
-    version="1.0.1">
+    version="1.0.2-dev">
     <name>AEM Mobile Navigation Protocols</name>
     <description>AEM Mobile Navigation Protocols Plugin</description>
     <license>Apache 2.0</license>
