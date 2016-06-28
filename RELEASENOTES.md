@@ -20,6 +20,9 @@
 -->
 # Release Notes
 
+### 1.1.0 (Jun 28, 2016)
+* Android support
+
 ### 1.0.1 (May 19, 2016)
 * initial public release
 
