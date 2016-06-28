@@ -29,7 +29,17 @@
             <allow-navigation href="https://*/*" />
             <allow-navigation href="about:*" />
         </config-file>
+    </platform>
 
+    <!-- android -->
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <allow-navigation href="navto:*" />
+            <allow-navigation href="goto:*" />
+            <allow-navigation href="http://*/*" />
+            <allow-navigation href="https://*/*" />
+            <allow-navigation href="about:*" />
+        </config-file>
     </platform>
 
 </plugin>
